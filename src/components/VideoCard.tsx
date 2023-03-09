@@ -14,12 +14,12 @@ const VideoCard = ({video: {id: {videoId}, snippet}}: any) => {
             <CardContent sx={{backgroundColor: "#1E1E1E", height: '106px'}}>
                 <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
                     <Typography variant="subtitle1" fontWeight="bold" color="#FFF">
-                        {snippet?.title.slice(0, 80) || demoVideoTitle.slice(0, 60)}
+                        {snippet?.title.slice(0, 65) || demoVideoTitle.slice(0, 60)}
                     </Typography>
                 </Link>
                 <Link to={snippet?.channelId ? `/channel/${snippet?.channelId}` : demoChannelUrl}>
                     <Typography variant="subtitle2" fontWeight="bold" color="gray">
-                        {snippet?.channelTitle.slice(0, 80) || demoChannelTitle.slice(0, 60)}
+                        {snippet?.channelTitle.slice(0, 65) || demoChannelTitle.slice(0, 60)}
                         <CheckCircle sx={{fontSize: 12, color: "gray", ml: "5px"}}/>
                     </Typography>
                 </Link>
