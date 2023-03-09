@@ -10,7 +10,7 @@ import React from "react";
 
 const App = () => (
     <BrowserRouter>
-        <Box sx={{backgroundColor: "#222222"}}>
+        <Box sx={{backgroundColor: "#1F1F1F"}}>
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Feed/>}/>
