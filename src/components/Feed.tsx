@@ -1,12 +1,11 @@
-import React from 'react';
-import {useState, useEffect} from "react";
+import React, {useEffect, useState} from 'react';
 import {Box, Stack, Typography} from "@mui/material";
 import CustomCopyright from "./CustomCopyright";
 import Sidebar from "./Sidebar";
 import Videos from "./Videos";
 import {FetchAPI} from "../utils/FetchAPI";
 
-const year = new Date().getFullYear();
+let year = new Date().getFullYear();
 const Feed = () => {
 
     const [selectedCategory, setSelectedCategory] = useState("New");

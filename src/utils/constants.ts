@@ -13,25 +13,24 @@ import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
 export const logo = 'https://upload.wikimedia.org/wikipedia/commons/7/71/YouTube_Ruby_Play_Button.png';
-export const oldLogo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
-    {name: 'New', icon: <HomeIcon/>,},
-    {name: 'Coding', icon: <CodeIcon/>,},
-    {name: 'ReactJS', icon: <CodeIcon/>,},
-    {name: 'NextJS', icon: <CodeIcon/>,},
-    {name: 'Music', icon: <MusicNoteIcon/>},
-    {name: 'Education', icon: <SchoolIcon/>,},
-    {name: 'Podcast', icon: <GraphicEqIcon/>,},
-    {name: 'Movie', icon: <OndemandVideoIcon/>,},
-    {name: 'Gaming', icon: <SportsEsportsIcon/>,},
-    {name: 'Live', icon: <LiveTvIcon/>,},
-    {name: 'Sport', icon: <FitnessCenterIcon/>,},
-    {name: 'Fashion', icon: <CheckroomIcon/>,},
-    {name: 'Beauty', icon: <FaceRetouchingNaturalIcon/>,},
-    {name: 'Comedy', icon: <TheaterComedyIcon/>,},
-    {name: 'Gym', icon: <FitnessCenterIcon/>,},
-    {name: 'Crypto', icon: <DeveloperModeIcon/>,},
+    {name: 'New', icon: HomeIcon},
+    {name: 'Coding', icon: CodeIcon,},
+    {name: 'ReactJS', icon: CodeIcon,},
+    {name: 'NextJS', icon: CodeIcon,},
+    {name: 'Music', icon: MusicNoteIcon},
+    {name: 'Education', icon: SchoolIcon,},
+    {name: 'Podcast', icon: GraphicEqIcon,},
+    {name: 'Movie', icon: OndemandVideoIcon,},
+    {name: 'Gaming', icon: SportsEsportsIcon,},
+    {name: 'Live', icon: LiveTvIcon,},
+    {name: 'Sport', icon: FitnessCenterIcon,},
+    {name: 'Fashion', icon: CheckroomIcon,},
+    {name: 'Beauty', icon: FaceRetouchingNaturalIcon,},
+    {name: 'Comedy', icon: TheaterComedyIcon,},
+    {name: 'Gym', icon: FitnessCenterIcon,},
+    {name: 'Crypto', icon: DeveloperModeIcon,},
 ];
 
 export const demoThumbnailUrl = 'https://upload.wikimedia.org/wikipedia/commons/e/e6/Background_Colors_by_Peak_Hora17.jpg';
