@@ -1,8 +1,7 @@
-import React from 'react';
-import {useState, useEffect} from "react";
+import React, {useEffect, useState} from 'react';
 import {Box, Typography} from "@mui/material";
 import Videos from "./Videos";
-import {fetchFromAPI} from "../utils/FetchAPI";
+import {FetchAPI} from "../utils/FetchAPI";
 import {useParams} from 'react-router-dom';
 
 const SearchFeed = () => {
@@ -11,16 +10,19 @@ const SearchFeed = () => {
     const {searchTerm} = useParams();
 
     useEffect(() => {
-        fetchFromAPI(`search?part=snippet&q=${searchTerm}`)
+        FetchAPI(`search?part=snippet&q=${searchTerm}`)
             .then((data) => setVideos(data.items))
     }, [searchTerm]);
 
     return (
-        <Box p={2} sx={{overflowY: "auto", height: "90vh", flex: 2}}>
-            <Typography variant="h4" fontWeight="bold" mb={2} sx={{color: "white"}}>
+        <Box p={2} minHeight="95vh">
+            <Typography variant="h4" fontWeight={900} mb={3} ml={{sm: "100px"}} color="white">
                 Search results for: <span style={{color: "#CA0B0B"}}> "{searchTerm}"</span> videos
             </Typography>
-            <Videos Videos={videos}/>
+            <Box display="flex">
+                <Box sx={{mr: {sm: '100px'}}}/>
+                {<Videos Videos={videos}/>}
+            </Box>
         </Box>
     )
 };

@@ -34,9 +34,9 @@ export const categories = [
     {name: 'Crypto', icon: <DeveloperModeIcon/>,},
 ];
 
-export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
-export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
-export const demoVideoUrl = '/video/GDa8kZLNhJ4';
-export const demoChannelTitle = 'Utube Player';
+export const demoThumbnailUrl = 'https://upload.wikimedia.org/wikipedia/commons/e/e6/Background_Colors_by_Peak_Hora17.jpg';
+export const demoChannelUrl = '/channel/UC8butISFwT-Wl7EV0hUK0BQ';
+export const demoVideoUrl = '/video/SIj4pzF0uk8';
+export const demoChannelTitle = 'UTube Player';
 export const demoVideoTitle = 'This is a personal project for my portfolio';
 export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
