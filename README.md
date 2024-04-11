@@ -1,12 +1,10 @@
 # **Youtube-clone Video Player**
 
 - Responsive YouTube-like app where you can search for videos, channels and play them using the RapidAPI YouTube v3 API. 
-- The left Sidebar allows you to browse between different video categories.
-
-Made by Ignacio https://www.linkedin.com/in/ignaciobardin/
+- The left Sidebar allows you to browse between different video categories.<br/><br/>
 
 
-**Tech Stack used for this project:**  
+**Tech Stack used:**<br/>
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
